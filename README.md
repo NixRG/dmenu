@@ -1,11 +1,24 @@
-# Luke's dmenu
-
-This is just my build of dmenu. Nothing special, don't bother starring ;-)
-
-Only changes are minor config ones: bigger font and different colors.
-
-The only reason this is even on Github is so LARBS can access the build, although this repo serves the additional purpose of using Github's metrics to approximate the number of people who install LARBS every day.
-
-## Installation
-
-After making any config changes that you want, but `make`, `sudo make install` it.
+      1 dmenu - dynamic menu
+      2 ====================
+      3 dmenu is an efficient dynamic menu for X.
+      4 
+      5 
+      6 Requirements
+      7 ------------
+      8 In order to build dmenu you need the Xlib header files.
+      9 
+     10 
+     11 Installation
+     12 ------------
+     13 Edit config.mk to match your local setup (dmenu is installed into
+     14 the /usr/local namespace by default).
+     15 
+     16 Afterwards enter the following command to build and install dmenu
+     17 (if necessary as root):
+     18 
+     19     make clean install
+     20 
+     21 
+     22 Running dmenu
+     23 -------------
+     24 See the man page for details.
